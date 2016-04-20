@@ -1,15 +1,6 @@
 ﻿/**************************
         HOME
 **************************/
-#title {
-    display: inline-block;
-    position: static;
-    top: -.3em;
-    left: 19em;
-    font-family: 'League Gothic';
-    font-size: xx-large;
-}
-
 
 body {
     margin: 0;
@@ -37,7 +28,7 @@ a {
 }
 
 header {
-    background-color: #9999FF;
+    background-color: transparent;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -66,6 +57,23 @@ header {
     vertical-align: middle;
 }
 
+.jumbotron {
+  background: transparent !important;
+  color: white !important;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: 250px;
+}
+
+.jumbotron h1{
+  font-size:80px !important;
+}
+
+.home {
+    background-image: url('../images/IMG_7884.jpg');
+    background-size: cover !important;
+    height: 1000px;
+}
 
 
 /**************************
@@ -112,7 +120,7 @@ header {
     width: 30px;
     height: 45px;
     position: relative;
-    margin: 50px auto;
+    margin: 80px auto;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     -webkit-transition: 0.5s ease-in-out;
@@ -171,3 +179,31 @@ header {
         top: 19px;
         left: 0px;
     }
+
+
+/**************************
+        FOOTER
+**************************/
+    i {
+  color: white;
+  margin-right: 0.16em;
+}
+.foot {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  float: left;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+.icons {
+  display: inline-block;
+}
+
+.icons a {
+  text-decoration: none !important;
+}
