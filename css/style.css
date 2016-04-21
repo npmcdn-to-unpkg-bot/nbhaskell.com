@@ -10,7 +10,7 @@ body {
 
 #name {
     font-size: xx-large;
-    color: #fff;   
+    color: #fff;
 }
 
 nav.navbar-default {
@@ -72,24 +72,17 @@ ul.navbar-nav li:hover {
         STACK ICONS
 ***************************/
 #stackIcons {
-    height: 200px;
+    height: 260px;
     background-color: #000;
 }
 
-#stackIcons img {
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-
-
-
-
-
+    #stackIcons img {
+        margin-top: -17em;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 
 
@@ -99,8 +92,11 @@ ul.navbar-nav li:hover {
 
 
 .about {
-    background: url("https://images.unsplash.com/photo-1437936251057-dfbf79980ce5?fit=crop&fm=jpg&h=650&ixlib=rb-0.3.5&q=80&w=1375")fixed;
+    background-image: url('../images/G0434530.JPG');
+    background-repeat: no-repeat;
     height: 700px;
+    width: auto;
+
 }
 
 .about-content {
@@ -118,7 +114,7 @@ ul.navbar-nav li:hover {
 }
 
 .about-img {
-    height: 250px;
+    width: 350px;
     margin-left: 50px;
     box-shadow: 1px -1px #FDFFFE;
 }
@@ -218,4 +214,3 @@ footer {
     .icons a {
         text-decoration: none !important;
     }
-
