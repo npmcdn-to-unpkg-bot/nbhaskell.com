@@ -2,72 +2,158 @@
 <html>
 <head>
     <meta charset="UTF-8" />
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet" />
     <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
     <link href="bower_components/font-awesome/css/font-awesome.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="wrapper animated bounceInLeft" id="navwrapper">
-        <header>
-            <div class="container">
-                <div id="hamburger" class="nav-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </header>
-    </div>
-    <div class="off-nav animated bounceInLeft">
-        <nav>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-        </nav>
-    </div>
-    <div class="home">
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <p class="brand navbar-brand scroll">Goode Development</p>
-                </div>
-            </div>
-        </nav>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="name navbar-brand" href="#Home" id="name">NBHaskell</a>
+            </div> <!--.navbar-header-->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about" style="color:white;"><span class="glyphicon glyphicon-user"></span> About</a></li>
+                    <li><a href="#portfolio" style="color:white;"><span class="glyphicon glyphicon-folder-close"></span> Portfolio</a></li>
+                    <li><a href="#contact" style="color:white;"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+                </ul>
+            </div> <!--.navbar-collapse-->
+        </div> <!--.container-fluid -->
+    </nav>
 
-        <!--End Navbar-->
-        <!--header -->
-        <a name="homey"> </a>
-        <div id="intro">
-            <div class="jumbotron">
-                <h1 class="text-center" id="head">Nathan Haskell</h1>
-                <p class="text-center" id="header">Full Stack Web Developer</p>
+    <!-- Home -->
+    <div class="landing-page" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="landing-title">
+                        <h1>Nathan B Haskell</h1>
+                        <h4>Full Stack Developer</h4>
+                        <ul class="list-inline social-buttons">
+                            <a href="http://facebook.com"><i class="fa fa-facebook-official fa-4x fa-fw"></i> </a>
+                            <a href="http://github.com"><i class="fa fa-github-square fa-4x fa-fw"></i> </a>
+                            <a href="http://github.com"><i class="fa fa-codepen fa-4x fa-fw"></i> </a>
+                            <a href="http://github.com"><i class="fa fa-linkedin-square fa-4x fa-fw"></i></a>
+                            <a href="http://github.com"><i class="fa fa-envelope fa-4x fa-fw"></i></a>
+                        </ul>
+                    </div> <!-- landing-title -->
+                </div> <!-- .col-md-12 -->
+            </div> <!-- .row -->
+        </div> <!-- container-fluid -->
+    </div> 
+    <div class="container-fluid" id="stackIcons">
+
+    </div>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-content">
+                    <div class="col-md-6">
+                        <h2>What I Do</h2>
+                        <p>
+                            I am a web designer and developer keen on making elegant development solutions. I like to use modern practices to craft modular, sensible code without sacrificing anything!
+                        </p>
+                        <p>
+                            My Language Range<br />
+                            HTML5, CSS3, jQuery, JavaScript, Bootstrap3, PHP
+                        </p>
+                        <p>
+                            My Tool Belt <br />
+                            Wordpress, Drupal, Git, SASS, node.js
+                        </p>
+                    </div> <!-- .col-md-6 -->
+                    <div class="col-md-6">
+                        <img class="about-img img-responsive img-circle" src="http://freedomcobra.com/asset/matthew.jpg">
+                    </div> <!-- .col-md-6 -->
+                </div> <!-- .about-content -->
+            </div> <!-- .row -->
+        </div> <!-- .container -->
+    </div> <!-- .about -->
+    <div class="portfolio" id="portfolio">
+        <div class="background-shade">
+            <div class="container">
+                <div class="row">
+                    <div class="portfolio-content">
+                        <div class="col-md-12">
+                            <h2 class="text-center">My Portfolio</h2>
+                        </div> <!-- col-md-12 -->
+                        <div class="col-sm-6 col-md-4 post">
+                            <h3>Heading</h3>
+                            <img class='img-responsive' src='http://i.imgur.com/jESF2.jpg'>
+                            <p>
+                                Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+                            </p>
+                        </div> <!-- col-md-4 -->
+                        <div class="col-sm-6 col-md-4 post">
+                            <h3>Heading</h3>
+                            <img class='img-responsive' src='http://i.imgur.com/jESF2.jpg'>
+                            <p>
+                                Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+                            </p>
+                        </div> <!-- col-md-4 -->
+                        <div class="col-sm-6 col-md-4 post">
+                            <h3>Heading</h3>
+                            <img class='img-responsive' src='http://i.imgur.com/jESF2.jpg'>
+                            <p>
+                                Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.
+                            </p>
+                        </div> <!-- col-md-4 -->
+                    </div> <!-- portfolio-content -->
+                </div> <!-- .row -->
+            </div> <!-- .container -->
+        </div> <!-- .background-shade -->
+    </div> <!-- .portfolio -->
+    <div class="contact" id="contact">
+        <div class="background-shade">
+            <div class='container'>
+                <div class="row">
+                    <div class="contact-content">
+                        <div class="col-sm-12 col-md-6 pull-left">
+                            <h2>Contact me</h2>
+                            <p>I can be reached at <span><a href="https://freedomcobra.com">Freedomcobra.com</a></span></p>
+                        </div> <!-- .col-md-6 -->
+                        <div class='col-sm-12 col-md-6 pull-right'>
+                            <ul class="list-inline social-buttons">
+                                <li><a class='btn btn-lg btn-default' href='#' target='_blank'>Twitter</a></li>
+
+                                <li><a class="btn btn-lg btn-default" href="#" target="_blank">Github</a></li>
+
+                                <li><a class='btn btn-lg btn-default' href='#' target='_blank'>LinkedIn</a></li>
+
+                                <li><a class='btn btn-lg btn-default' href='#' target='_blank'>Free Code Camp</a></li>
+                            </ul>
+                        </div> <!-- col-md-6 -->
+                    </div> <!-- .contact-content -->
+                </div> <!-- .row -->
+            </div> <!-- .container -->
+        </div><!-- background-shade -->
+    </div> <!-- .contact -->
+    <a name="conty"></a>
+    <div class="foot">
+        <h2 class="text-center">Contact me:</h2>
+        <div class="text-center">
+            <div class="icons">
+                <a href="http://facebook.com"><i class="fa fa-facebook-official fa-5x fa-fw"></i> </a>
+                <a href="http://github.com"><i class="fa fa-github-square fa-5x fa-fw"></i> </a>
+                <a href="http://github.com"><i class="fa fa-codepen fa-5x fa-fw"></i> </a>
+                <a href="http://github.com"><i class="fa fa-linkedin-square fa-5x fa-fw"></i></a>
+                <a href="http://github.com"><i class="fa fa-envelope fa-5x fa-fw"></i></a>
             </div>
         </div>
-        <div class="foot">
-            <h2 class="text-center">Contact me:</h2>
-            <div class="text-center">
-                <div class="icons">
-                    <a href="http://facebook.com"><i class="fa fa-facebook-official fa-5x fa-fw"></i> </a>
-                    <a href="http://github.com"><i class="fa fa-github-square fa-5x fa-fw"></i> </a>
-                    <a href="http://github.com"><i class="fa fa-codepen fa-5x fa-fw"></i> </a>
-                    <a href="http://github.com"><i class="fa fa-linkedin-square fa-5x fa-fw"></i></a>
-                    <a href="http://github.com"><i class="fa fa-envelope fa-5x fa-fw"></i></a>
-                </div>
-            </div>
-            <!--copyright -->
-            <footer class="text-center">
-                <small> &reg NBHaskell Development 2016. All Rights Reserved</small>
-            </footer>
-        </div>
-        <script src="bower_components/jquery/dist/jquery.js"></script>
-        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-        <script src="js/nav.js"></script>
+    </div>
+    <footer class="text-center">
+        <small> &reg Nathan B Haskell 2016. All Rights Reserved</small>
+    </footer>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
