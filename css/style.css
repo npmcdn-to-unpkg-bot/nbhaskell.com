@@ -6,15 +6,13 @@ html, body {
     width: 100%;
 }
 
-/***************************
-        HOME
-***************************/
-
-
 body {
     font-family: 'Abril+Fatface';
     color: #222;
 }
+/***************************
+        NAV
+***************************/
 
 #name {
     font-size: xx-large;
@@ -59,15 +57,22 @@ ul.navbar-nav li:hover a:hover {
     background-color: #f7f7f7 !important;
 }
 
-.landing-page {
-    background-image: url('../images/2014-09-09 18.46.39.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 92%;
-    width: 100%;
-    overflow: hidden;
+/***************************
+        HOME
+***************************/
+.bcg {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
 }
+
+#slide-1 .bcg{
+        background-image: url('../images/2014-09-09 18.46.39.jpg');
+}
+
 
 .landing-title {
     text-align: center;
@@ -94,10 +99,10 @@ ul.navbar-nav li:hover a:hover {
 #downArrow {
     height: 90px;
     width: 90px;
-    display:block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 43vh; 
+    margin-top: 43vh;
 }
 
 @media (max-width: 770px) {
@@ -114,18 +119,33 @@ ul.navbar-nav li:hover a:hover {
     background-color: #000;
 }
 
-.stack-icons h3 {
-    color: #fff;
-    text-align:center;
-    margin-top: 30px;
-    margin-bottom: -60px;
-}
+    .stack-icons h3 {
+        color: #fff;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: -60px;
+    }
 
 
 
 /***************************
-    
+         ABOUT
 ***************************/
+#slide-2 .bcg {
+    height: 600px;
+    background-image: url('../images/WinterImage.png');
+}
+
+.hsContent h2 {
+    font-family: 'Abril+Fatface';
+    font-weight: bolder;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 45px;
+}
+
+
+
 
 
 /***************************
