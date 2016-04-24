@@ -80,7 +80,7 @@ ul.navbar-nav li:hover a:hover {
 }
 
     .landing-title h1 {
-        color: #f1f1f1;
+        color: #fff;
         font-family: 'sofia';
         font-weight: bolder;
         font-size: 6em;
@@ -124,6 +124,7 @@ ul.navbar-nav li:hover a:hover {
         text-align: center;
         margin-top: 30px;
         margin-bottom: -60px;
+        padding-bottom: 20px;
     }
 
 
@@ -136,28 +137,66 @@ ul.navbar-nav li:hover a:hover {
     background-image: url('../images/WinterImage.png');
 }
 
+#aboutImage {
+    height: 450px;
+    width: 450px;
+    float: left;
+    margin-left: 295px;
+    margin-right: 75px;
+}
+#aboutImage img {
+    border-radius: 50%;
+}
+
 .hsContent h2 {
     font-family: 'Abril+Fatface';
     font-weight: bolder;
     margin-top: 0;
     text-align: center;
     padding-top: 45px;
+    color:#fff;
+    text-shadow: 2px 2px #000; 
+
 }
 
+.hsContent p {
+    font-family: 'Abril+Fatface';
+    margin-top: 50px;
+    color: #fff;
+    font-size: large;
 
-
+}
 
 
 /***************************
         PORTFOLIO
 ***************************/
+#slide-3 .bcg {
+    height: 600px;
+    background-image: url('../images/pineTrees.jpg');
+}
 
 
 
 /***************************
-     
+       CONTACT
 ***************************/
+#slide-4 .bcg {
+    height: 900px;
+    background-image: url('../images/SheepCastle.jpg');
+}
 
+#slide-4 .hsContent {
+    margin-left: 450px;
+    position: fixed;
+    top: 250px;
+}
+
+#slide-4 h2 {
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+}
 
 
 /***************************
