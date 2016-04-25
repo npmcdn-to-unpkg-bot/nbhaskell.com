@@ -133,19 +133,8 @@ ul.navbar-nav li:hover a:hover {
          ABOUT
 ***************************/
 #slide-2 .bcg {
-    height: 600px;
-    background-image: url('../images/WinterImage.png');
-}
-
-#aboutImage {
-    height: 450px;
-    width: 450px;
-    float: left;
-    margin-left: 295px;
-    margin-right: 75px;
-}
-#aboutImage img {
-    border-radius: 50%;
+    height: 700px;
+    background-image: url('../images/aboutImage.png');
 }
 
 .hsContent h2 {
@@ -154,17 +143,18 @@ ul.navbar-nav li:hover a:hover {
     margin-top: 0;
     text-align: center;
     padding-top: 45px;
-    color:#fff;
-    text-shadow: 2px 2px #000; 
+    color:#000;
+    text-shadow: 2px 2px #bebcbc; 
 
 }
 
 .hsContent p {
     font-family: 'Abril+Fatface';
     margin-top: 50px;
-    color: #fff;
-    font-size: large;
-
+    color: #000;
+    font-size: x-large;
+    text-align: center;
+    text-shadow: 2px 2px #bebcbc;
 }
 
 
@@ -172,8 +162,38 @@ ul.navbar-nav li:hover a:hover {
         PORTFOLIO
 ***************************/
 #slide-3 .bcg {
-    height: 600px;
-    background-image: url('../images/pineTrees.jpg');
+    height: 700px;
+    background-image: url('../images/WinterImage.png');
+}
+
+.hsContent h2 {
+    text-shadow: 1px 1px #000;
+}
+
+#projects {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.hsContent .thumbnail {
+    height: 175px;
+    width: 175px;
+    display: inline-block;
+    border-radius: 15%;
+    background-color: #000;
+}
+
+.hsContent #left {
+    margin-right: 250px;
+}
+
+.hsContent #center {
+
+}
+
+.hsContent #right {
+    margin-left: 250px;
 }
 
 
@@ -182,7 +202,7 @@ ul.navbar-nav li:hover a:hover {
        CONTACT
 ***************************/
 #slide-4 .bcg {
-    height: 900px;
+    height: 600px;
     background-image: url('../images/SheepCastle.jpg');
 }
 
