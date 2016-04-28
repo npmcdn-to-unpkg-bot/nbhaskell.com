@@ -196,6 +196,9 @@ ul.navbar-nav li:hover a:hover {
     margin-left: 250px;
 }
 
+#projects p {
+    font-size: medium; 
+}
 
 
 /***************************
