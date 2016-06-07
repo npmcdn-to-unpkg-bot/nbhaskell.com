@@ -61,16 +61,16 @@ ul.navbar-nav li:hover a:hover {
         HOME
 ***************************/
 .bcg {
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	height: 100%;
-	width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
-#slide-1 .bcg{
-        background-image: url('../images/2014-09-09 18.46.39.jpg');
+#slide-1 .bcg {
+    background-image: url('../images/2014-09-09 18.46.39.jpg');
 }
 
 
@@ -137,18 +137,17 @@ ul.navbar-nav li:hover a:hover {
     background-image: url('../images/aboutImage.png');
 }
 
-.hsContent h2 {
+#slide-2 .hsContent h2 {
     font-family: 'Abril+Fatface';
     font-weight: bolder;
     margin-top: 0;
     text-align: center;
     padding-top: 45px;
-    color:#000;
-    text-shadow: 2px 2px #bebcbc; 
-
+    color: #000;
+    text-shadow: 2px 2px #bebcbc;
 }
 
-.hsContent p {
+#slide-2 .hsContent p {
     font-family: 'Abril+Fatface';
     margin-top: 50px;
     color: #000;
@@ -166,59 +165,64 @@ ul.navbar-nav li:hover a:hover {
     background-image: url('../images/logoBackground.png');
 }
 
-.hsContent h2 {
-    text-shadow: 1px 1px #000;
-}
-
-#projects {
-    width: 100%;
+#slide-3 .hsContent h2 {
+    font-family: 'Abril+Fatface';
+    font-weight: bolder;
+    margin-top: 0;
     text-align: center;
-    margin-top: 60px;
+    padding-top: 45px;
+    color: #bebcbc;
+    text-shadow: 2px 2px #000;
 }
 
-.hsContent .thumbnail {
-    height: 175px;
-    width: 175px;
-    display: inline-block;
-    border-radius: 15%;
+#slide-3 .hsContent p {
+    font-family: 'Abril+Fatface';
+    margin-top: 50px;
+    color: #fff;
+    font-size: x-large;
+    text-align: center;
+    text-shadow: 2px 2px #222;
+}
+
+#slide-3 h4 {
+    color: #fff;
+}
+
+#tourpackages-carousel .thumbnail {
     background-color: #000;
 }
 
-.hsContent #left {
-    margin-right: 250px;
+#tourpackages-carousel {
+    margin-top: 50px;
 }
 
-.hsContent #center {
-
+.thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
 }
 
-.hsContent #right {
-    margin-left: 250px;
-}
-
-#projects p {
-    font-size: medium; 
-}
+    .thumbnail img {
+        width: 100%;
+    }
 
 
 /***************************
-       CONTACT
+       ARTWORK
 ***************************/
 #slide-4 .bcg {
-    height: 600px;
-    background-image: url('../images/SheepCastle.jpg');
+    height: 800px;
+    background-image: url('../images/rsz_san-diego-city-in-california.jpg');
 }
 
-#slide-4 .hsContent {
-    margin-left: 450px;
-    position: fixed;
-    top: 250px;
-}
-
-#slide-4 h2 {
-    background: none;
-    padding-left: 0;
-    padding-right: 0;
+#slide-4 .hsContent h2 {
+    font-family: 'Abril+Fatface';
+    font-weight: bolder;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 45px;
+    color: #bebcbc;
+    text-shadow: 2px 2px #000;
 }
 
 
