@@ -102,7 +102,7 @@ ul.navbar-nav li:hover a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 43vh;
+    margin-top: 40vh;
 }
 
 @media (max-width: 770px) {
@@ -161,7 +161,7 @@ ul.navbar-nav li:hover a:hover {
         PORTFOLIO
 ***************************/
 #slide-3 .bcg {
-    height: 700px;
+    height: 925px;
     background-image: url('../images/logoBackground.png');
 }
 
@@ -193,7 +193,7 @@ ul.navbar-nav li:hover a:hover {
 }
 
 #tourpackages-carousel {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .thumbnail {
@@ -223,6 +223,16 @@ ul.navbar-nav li:hover a:hover {
     padding-top: 45px;
     color: #bebcbc;
     text-shadow: 2px 2px #000;
+}
+
+.row {
+    padding-top: 40px;
+}
+
+.portfolio-item {
+    margin-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 
