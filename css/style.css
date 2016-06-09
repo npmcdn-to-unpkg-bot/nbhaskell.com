@@ -1,5 +1,4 @@
-﻿
-html, body {
+﻿html, body {
     padding: 0;
     margin: 0;
     height: 100%;
@@ -7,8 +6,10 @@ html, body {
 }
 
 body {
-    font-family: 'Abril+Fatface';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+    /*font-family: 'Abril+Fatface';*/
     color: #222;
+    min-width: 448px;
 }
 /***************************
         NAV
@@ -18,12 +19,13 @@ body {
     font-size: xx-large;
     color: #fff;
     margin-top: 12px;
+    float: none;
 }
 
 #logo {
     height: 75px;
     width: 75px;
-    float: left;
+    
     margin-right: 30px;
     margin-left: 25px;
     margin-top: 2px;
@@ -44,7 +46,15 @@ nav.navbar-default {
 
 #myNavbar {
     font-size: large;
-    margin-top: 12px;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+#navContact {
+    margin-right: 50px;
 }
 
 .navbar {
@@ -54,8 +64,21 @@ nav.navbar-default {
 .navbar-brand:hover,
 ul.navbar-nav li:hover a:hover {
     color: #000 !important;
-    background-color: #f7f7f7 !important;
+    background-color: #f7f7f7;
 }
+
+#name:hover {
+    color: #000;
+    background-color: #f7f7f7;
+}
+
+.navbar .nav li {
+    z-index: 1001;
+}
+
+
+
+
 
 /***************************
         HOME
@@ -105,11 +128,7 @@ ul.navbar-nav li:hover a:hover {
     margin-top: 40vh;
 }
 
-@media (max-width: 770px) {
-    .landing-title h1 {
-        margin-top: 16%;
-    }
-}
+
 
 /***************************
         STACK ICONS

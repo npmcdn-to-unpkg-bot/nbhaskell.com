@@ -1,0 +1,48 @@
+﻿@-ms-viewport{
+  width: device-width;
+}
+
+/***************************
+        NAV
+***************************/
+
+@media (max-width: 770px) {
+    .navbar-brand, ul.navbar-nav li a {
+        background-color: #000;
+    }
+
+    #navContact {
+        margin-right: 0;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #000;
+    }
+
+    .navbar-toggle {
+        margin-top: 22px;
+    }
+
+
+}
+
+@media (max-width: 463px) {
+    .name.navbar-brand {
+       
+    }
+}
+
+
+/***************************
+        HOME
+***************************/
+
+@media (max-width: 770px) {
+    .landing-title h1 {
+        margin-top: 11vh;
+    }
+
+    #downArrow {
+        /*display: none;*/
+    }
+}
