@@ -159,10 +159,11 @@ ul.navbar-nav li:hover a:hover {
 
 .row-centered {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 #octocat {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 
@@ -171,8 +172,9 @@ ul.navbar-nav li:hover a:hover {
          ABOUT
 ***************************/
 #slide-2 .bcg {
-    height: 700px;
+    height: 86vh;
     background-image: url('../images/aboutImage.png');
+    background-position: -28vh;
 }
 
 #slide-2 .hsContent h2 {

@@ -73,3 +73,27 @@
         display: none !important;
     }
 }
+
+@media (max-width: 498px) {
+    #favtext {
+        font-size: 1.5em;
+    }
+}
+
+
+
+/***************************
+        ABOUT
+***************************/
+
+@media (max-width: 767px) {
+    #slide-2 .bcg {
+        background-image: url('../images/rsz_11aboutimage.png');
+    }
+}
+
+@media (max-width: 1730px) {
+    #aboutText {
+        margin-left: 40px;        
+    }
+}
