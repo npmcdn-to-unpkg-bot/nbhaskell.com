@@ -172,7 +172,7 @@ ul.navbar-nav li:hover a:hover {
          ABOUT
 ***************************/
 #slide-2 .bcg {
-    height: 86vh;
+    height: 80vh;
     background-image: url('../images/aboutImage.png');
     background-position: -28vh;
 }
@@ -184,7 +184,7 @@ ul.navbar-nav li:hover a:hover {
     text-align: center;
     padding-top: 45px;
     color: #000;
-    text-shadow: 2px 2px #bebcbc;
+    text-shadow: 2px 2px 2px #bebcbc;
 }
 
 #slide-2 .hsContent p {
@@ -193,7 +193,12 @@ ul.navbar-nav li:hover a:hover {
     color: #000;
     font-size: x-large;
     text-align: center;
-    text-shadow: 2px 2px #bebcbc;
+    text-shadow: -1px 3px 3px #bebcbc, 1px 3px 3px #F5F6FA;
+    font-weight: bold;
+}
+
+#aboutText {
+    max-width: 900px;
 }
 
 

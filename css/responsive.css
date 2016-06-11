@@ -90,10 +90,40 @@
     #slide-2 .bcg {
         background-image: url('../images/rsz_11aboutimage.png');
     }
+    #aboutText p {
+        font-size: 150% !important;
+    }
+
 }
 
 @media (max-width: 1730px) {
     #aboutText {
-        margin-left: 40px;        
+        margin-left: 39%;       
+    }
+}
+
+@media (max-width: 1199px) {
+
+    #slide-2 {
+        -webkit-filter: grayscale(1); /* Old WebKit */
+        filter: grayscale(1);
+    }
+
+    #aboutText {
+        margin-left: auto;
+    }
+
+    #aboutText {
+        background-color: rgba(255, 255, 255, .2);
+    }
+}
+
+@media (max-width: 499px) {
+    #aboutText p {
+        font-size: 134% !important;
+    }
+    
+    #aboutText {
+        background-color: rgba(255, 255, 255, .7);
     }
 }
