@@ -6,8 +6,9 @@
     <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
     <link href="bower_components/font-awesome/css/font-awesome.css" rel="stylesheet" />
     <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="css/medium.css" media="only screen and (min-width: 600px)" rel="stylesheet" />
+    <link href="css/large.css" media="only screen and (min-width: 768px)" rel="stylesheet" />
+    <link href="css/style.css" media="only screen and (min-width: 1200px)" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -163,7 +164,7 @@
                             <div class="col-xs-18 col-sm-6 col-md-3">
                                 <div class="thumbnail">
                                     <img src="images/rsz_1pawze2.png" />
-                                    <div class="caption">
+                                    <div class="caption" id="pawze">
                                         <h4>PAWZE</h4>
                                         <p>Full stack application. Pawze makes use of SOLID design pattern / SQL database / Web API / REST APIs / OAuth with roles / User dashboard / AngularJS & JQuery with animations / Stripe subscription & payment API / MP4 video background.</p>
                                     </div>
@@ -172,25 +173,25 @@
                             <div class="col-xs-18 col-sm-6 col-md-3">
                                 <div class="thumbnail">
                                     <img src="images/rsz_property-manager.png" alt="">
-                                    <div class="caption">
+                                    <div class="caption" id="property">
                                         <h4>PROPERTY MANAGER</h4>
-                                        <p>Full stack application. Property Manager features SQL database with search and filtering / Web API / REST APIs / AngularJS / OAuth with roles for login & registration and user dashboard / Users can set favorite properties and drill down into greater detail.<br /></p>
+                                        <p>Full stack application. Property Manager features SQL database with search and filtering / Web API / REST APIs / AngularJS / OAuth with roles for login & registration and user dashboard / Users can set favorite properties and drill down into greater detail.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xs-18 col-sm-6 col-md-3">
                                 <div class="thumbnail">
                                     <img src="images/rsz_food_ninja (1).png" alt="">
-                                    <div class="caption">
+                                    <div class="caption" id="ninja">
                                         <h4>FOOD NINJA</h4>
-                                        <p>Full stack application. The Food Ninja application uses a complex ERD and Relationship tables / SQL database / Web API / REST APIs / OAuth with roles for login and registration / User dashboard / AngularJS.<br /><br /> </p>
+                                        <p>Full stack application. The Food Ninja application uses a complex ERD and Relationship tables / SQL database / Web API / REST APIs / OAuth with roles for login and registration / User dashboard / AngularJS.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xs-18 col-sm-6 col-md-3">
                                 <div class="thumbnail">
                                     <img src="images/rsz_1memory.png" alt="">
-                                    <div class="caption">
+                                    <div class="caption" id="memory">
                                         <h4>MEMORY GAME</h4>
                                         <p>Front end application. The Memory Game web application is a fun project written in HTML / CSS / Javascript and uses the JQuery component library Sizzle / The app tracks clicks for score and users can reset the current game at any point.</p>
                                     </div>
@@ -215,63 +216,13 @@
                  data-center="opacity: 1"
                  data-200-top="opacity: 1"
                  data-anchor-target="#slide-4 h2">
-                <h2>ARTWORK</h2>
-                <div class="container">
-                    <!--Artwork Projects-->
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                            <a href="#">
-                                <img class="img-responsive" src="http://placehold.it/750x750/000000/ffffff" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                            <a href="#">
-                                <img class="img-responsive" src="images/LuckyNo13.png" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                            <a href="#">
-                                <img class="img-responsive" src="http://placehold.it/750x750/000000/ffffff" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                            <a href="#">
-                                <img class="img-responsive" src="http://placehold.it/750x750/000000/ffffff" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <!--/.row-->
-                    <!--Artwork Projects-->
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                            <a href="#">
-                                <img class="img-responsive" src="http://placehold.it/750x750/000000/ffffff" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                            <a href="#">
-                                <img class="img-responsive" src="http://placehold.it/750x750/000000/ffffff" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                            <a href="#">
-                                <img class="img-responsive" src="http://placehold.it/750x750/000000/ffffff" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
-                            <a href="#">
-                                <img class="img-responsive" src="http://placehold.it/750x750/000000/ffffff" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <!--/.row-->
-                </div>
+                <h2>SKILLS</h2>
+
             </div>
         </div>
     </section>
     <!--FOOTER-->
     <div class="foot">
-        <h2 class="text-center"></h2>
         <div class="text-center">
             <div class="icons">
                 <a href="http://facebook.com"><i class="fa fa-facebook-official fa-3x fa-fw"></i> </a>
@@ -283,7 +234,7 @@
         </div>
     </div>
     <footer class="text-center">
-        <small> &reg Nathan B Haskell 2016. All Rights Reserved</small>
+        <small id="foottext"> &reg Nathan B Haskell 2016. All Rights Reserved</small>
     </footer>
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>

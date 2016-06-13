@@ -1,26 +1,19 @@
-﻿html, body {
+* {
     padding: 0;
     margin: 0;
-    height: 100%;
-    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-    min-width: 375px;
-    font-size: 79%;
+    font-size: 62.5%;
 }
+
 
 /***************************
         NAV
 ***************************/
-
-#name {
-    font-size: xx-large;
-    color: #fff;
-    margin-top: 12px;
-    float: none;
-    vertical-align: middle;
-}
 
 #logo {
     height: 75px;
@@ -30,10 +23,16 @@ body {
     margin-top: 2px;
 }
 
+#name {
+    font-size: xx-large;
+    color: #fff;
+    float: none;
+    vertical-align: middle;
+}
+
 nav.navbar-default {
-    background-color: #c;
+    background-color: #15100D;
     height: 80px;
-    margin-bottom: -4px;
     border: 0 solid;
 }
 
@@ -56,11 +55,6 @@ nav.navbar-default {
 }
 
 
-
-#navContact {
-    margin-right: 50px;
-}
-
 .navbar {
     margin-bottom: 0;
 }
@@ -75,11 +69,6 @@ ul.navbar-nav li:hover a:hover {
     color: #000;
     background-color: #f7f7f7;
 }
-
-
-
-
-
 
 
 /***************************
@@ -101,14 +90,16 @@ ul.navbar-nav li:hover a:hover {
 }
 
     #slide-1 .bcg {
-        background-image: url('../images/2014-09-09 18.46.39.jpg');
+        background-image: url('../images/rsz_12014-09-09_184639.jpg');
     }
 
 
 .landing-title {
+    font-size: 2.2em;
     text-align: center;
-    padding-top: 50px;
-    height: 90vh;
+    padding-top: 150px;
+    padding-bottom: 323px;
+    
 }
 
     .landing-title h1 {
@@ -116,7 +107,8 @@ ul.navbar-nav li:hover a:hover {
         font-family: 'sofia';
         font-weight: bolder;
         font-size: 6em;
-        text-shadow: -10px -6px #000;
+        text-shadow: -10px -6px 25px #000;
+        padding-bottom: 20px;
     }
 
     .landing-title h4 {
@@ -124,15 +116,21 @@ ul.navbar-nav li:hover a:hover {
         font-weight: 100;
         color: #fff;
         font-size: 2em;
-        text-shadow: -4px -3px #000;
+        text-shadow: -4px -3px 6px #000;
         padding: 3px;
     }
+
+.social-buttons {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
 
 #downArrow {
     height: 90px;
     width: 90px;
     display: block;
-    margin-left: 3%;
+    left: 45%;
     position: absolute;
     bottom: 9px;
 }
@@ -169,6 +167,10 @@ ul.navbar-nav li:hover a:hover {
     margin-bottom: 15px;
 }
 
+#jquery {
+        display: none !important;
+    }
+
 
 
 /***************************
@@ -176,10 +178,12 @@ ul.navbar-nav li:hover a:hover {
 ***************************/
 
 #slide-2 .bcg {
-    height: 80vh;
-    background-image: url('../images/aboutImage.png');
-     -webkit-filter: grayscale(0); /* Old WebKit */
-        filter: grayscale(0);
+    height: 770px;
+    background-image: url('../images/rsz_11aboutimage.png');
+    background-position: -28vh;
+    position: relative;
+        -webkit-filter: grayscale(1); /* Old WebKit */
+        filter: grayscale(1);
 }
 
 #slide-2 .hsContent h2 {
@@ -200,13 +204,17 @@ ul.navbar-nav li:hover a:hover {
     text-align: center;
     text-shadow: -1px 3px 3px #bebcbc, 1px 3px 3px #F5F6FA;
     font-weight: bold;
+       text-align: justify;
 }
 
 #aboutText {
     max-width: 900px;
-    background-color: transparent;
-    margin-left: 27%;
+    position: absolute;
+    height: 100%;
+    margin-left: auto;
+    background-color: rgba(255, 255, 255, .2);
 }
+
 
 
 /***************************
@@ -225,20 +233,25 @@ ul.navbar-nav li:hover a:hover {
     text-align: center;
     padding-top: 45px;
     color: #bebcbc;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 2px 4px #000;
 }
 
 #slide-3 .hsContent p {
     font-family: 'Abril+Fatface';
     margin-top: 50px;
     color: #fff;
-    font-size: x-large;
+    font-size: 2.9em;
     text-align: center;
     text-shadow: 2px 2px #222;
+    text-align: justify;
 }
 
 #slide-3 h4 {
     color: #fff;
+}
+
+#pawze p {
+    padding-bottom: 25px;
 }
 
 #tourpackages-carousel .thumbnail {
@@ -247,6 +260,7 @@ ul.navbar-nav li:hover a:hover {
 
 #tourpackages-carousel {
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .thumbnail {
@@ -259,17 +273,6 @@ ul.navbar-nav li:hover a:hover {
         width: 100%;
     }
 
-#property p {
-    padding-bottom: 25px;
-}
-
-#ninja p {
-    padding-bottom: 91px;
-}
-
-#memory p {
-    padding-bottom: 56px;
-}
 
 /***************************
        ARTWORK
@@ -318,8 +321,14 @@ footer {
 .icons {
     display: inline-block;
     margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    font-size: 1.7em;
 }
 
     .icons a {
         text-decoration: none !important;
+    }
+
+    #foottext {
+        font-size: 2em;
     }
