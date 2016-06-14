@@ -131,6 +131,7 @@ ul.navbar-nav li:hover a:hover {
 .social-buttons {
     margin-top: 30px;
     margin-left: 15px;
+    font-size: 1em;
 }
 
 
@@ -153,6 +154,7 @@ ul.navbar-nav li:hover a:hover {
         text-align: center;
         margin-top: 30px;
         padding-bottom: 20px;
+        font-size: 3em;
     }
 
 #stackRow .portfolio-item {
@@ -197,6 +199,7 @@ ul.navbar-nav li:hover a:hover {
     padding-top: 45px;
     color: #000;
     text-shadow: 2px 2px 2px #bebcbc;
+    font-size: 5em;
 }
 
 #slide-2 .hsContent p {
