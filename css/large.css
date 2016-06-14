@@ -62,12 +62,10 @@ nav.navbar-default {
 .navbar-brand:hover,
 ul.navbar-nav li:hover a:hover {
     color: #000 !important;
-    background-color: #f7f7f7;
 }
 
 #name:hover {
     color: #000;
-    background-color: #f7f7f7;
 }
 
 

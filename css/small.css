@@ -64,12 +64,10 @@ nav.navbar-default {
 .navbar-brand:hover,
 ul.navbar-nav li:hover a:hover {
     color: #000 !important;
-    background-color: #f7f7f7;
 }
 
 #name:hover {
     color: #000;
-    background-color: #f7f7f7;
 }
 
 .navbar-toggle {
@@ -183,8 +181,8 @@ ul.navbar-nav li:hover a:hover {
 ***************************/
 
 #slide-2 .bcg {
-    height: 770px;
-    background-image: url('../images/rsz_11aboutimage.png');
+    height: 640px;
+    background-image: none;
     background-position: -28vh;
     position: relative;
         -webkit-filter: grayscale(1); /* Old WebKit */
