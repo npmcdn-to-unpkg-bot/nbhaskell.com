@@ -6,32 +6,6 @@
         NAV
 ***************************/
 
-@media (max-width: 767px) {
-    .navbar-brand, ul.navbar-nav li a {
-        background-color: #000;
-    }
-
-    #navContact {
-        margin-right: 0;
-    }
-
-    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-        border-color: #000;
-    }
-
-    .navbar-toggle {
-        margin-top: 22px;
-    }
-
-    #logo {
-        margin-right: 10px;
-    }
-
-    .navbar-brand {
-        padding-left: 0px;
-    }
-}
-
 
 
 /***************************
@@ -43,25 +17,6 @@
         STACK ICONS
 ***************************/
 
-@media (max-width: 1199px) {
-
-    #octocat {
-        display: none !important;
-    }
-
-    #stackRow {
-        margin-bottom: 25px;
-    }
-}
-
-
-
-@media (max-width: 498px) {
-    #favtext {
-        font-size: 1.5em;
-    }
-}
-
 
 
 /***************************
@@ -69,50 +24,25 @@
 ***************************/
 
 
-@media (max-width: 1730px) {
-    #aboutText {
-        margin-left: 39%;       
-    }
-}
-
-@media (max-width: 1199px) {
-
-    #slide-2 {
-        -webkit-filter: grayscale(1); /* Old WebKit */
-        filter: grayscale(1);
-    }
-
-    #aboutText {
-        margin-left: auto;
-    }
-
-    #aboutText {
-        background-color: rgba(255, 255, 255, .2);
-    }
-}
-
-@media (max-width: 499px) {
-    #aboutText p {
-        font-size: 134% !important;
-    }
-    
-    #aboutText {
-        background-color: rgba(255, 255, 255, .7);
-    }
-}
 
 /***************************
         PORTFOLIO
 ***************************/
 
-@media (max-width: 1199px) {
-    #pawze p {
-        padding-bottom: 18px;
-    }
-    #ninja p {
-        padding-bottom: 51px;
-    }
-    #memory p {
-        padding-bottom: 51px;
-    }
+@media (min-width: 992px) and (max-width: 1199px) {
+   #pawze p {
+        padding-bottom: 0px;
+   }  
+
+   #property p {
+        padding-bottom: 30px;
+   }   
+
+   #ninja p {
+        padding-bottom: 47px;
+   }
+
+   #memory p {
+        padding-bottom: 71px;
+   }
 }

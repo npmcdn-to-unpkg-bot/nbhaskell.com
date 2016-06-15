@@ -257,16 +257,20 @@ ul.navbar-nav li:hover a:hover {
         width: 100%;
     }
 
+#pawze p {
+    padding-bottom: 0px;
+}
+
 #property p {
-    padding-bottom: 25px;
+    padding-bottom: 35px;
 }
 
 #ninja p {
-    padding-bottom: 91px;
+    padding-bottom: 69px;
 }
 
 #memory p {
-    padding-bottom: 56px;
+    padding-bottom: 35px;
 }
 
 /***************************
